@@ -12,7 +12,7 @@ RUN pip install -r requirements.txt
 COPY . .
 
 # Set YOUR_NAME environment variable
-ENV Dina QA
+ENV YOUR_NAME Dina
 
 # Expose the correct port
 EXPOSE 5500
