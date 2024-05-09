@@ -2,7 +2,7 @@
 FROM python:latest
 
 # Copy contents into image
-COPY requirements.txt
+COPY requirements.txt .
  
 # Install pip dependencies from requirements
 RUN pip install --upgrade pip
